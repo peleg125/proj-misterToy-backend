@@ -12,7 +12,12 @@ const app = express()
 
 // App Configuration
 const corsOptions = {
-  origin: ['http://127.0.0.1:8080', 'http://localhost:8080', 'http://127.0.0.1:5173', 'http://localhost:5173'],
+  origin: [
+    'http://127.0.0.1:8080',
+    'http://localhost:8080',
+    'http://127.0.0.1:5173',
+    'http://localhost:5173',
+  ],
   credentials: true,
 }
 
@@ -113,7 +118,8 @@ app.get('/**', (req, res) => {
 })
 
 // Listen will always be the last line in our server!
-const port = 3030
+// const port = 3030
+const port = process.env.PORT || 3030
 app.listen(port, () => {
   loggerService.info(`Server listening on port http://127.0.0.1:${port}/`)
 })
