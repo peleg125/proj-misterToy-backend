@@ -10,7 +10,7 @@ export const toyService = {
   save,
 }
 
-function query(filterBy = {}) {
+function query(filterBy = {}, sortBy) {
   let filteredToys = toys
 
   if (filterBy.name) {
@@ -19,14 +19,30 @@ function query(filterBy = {}) {
   }
 
   if (filterBy.inStock !== undefined) {
-    filteredToys = filteredToys.filter((toy) => toy.inStock === filterBy.inStock)
+    filteredToys = filteredToys.filter((toy) => toy.inStock === JSON.parse(filterBy.inStock))
   }
 
   if (filterBy.labels && filterBy.labels.length > 0) {
     filteredToys = filteredToys.filter((toy) => filterBy.labels.some((label) => toy.labels.includes(label)))
   }
-
+  sortToysBy(filteredToys, sortBy)
   return Promise.resolve(filteredToys)
+}
+
+function sortToysBy(filteredToys, sortBy) {
+  if (!sortBy.type) return
+
+  filteredToys.sort((a, b) => {
+    let compareValue
+
+    if (typeof a[sortBy.type] === 'string') {
+      compareValue = a[sortBy.type].localeCompare(b[sortBy.type])
+    } else {
+      compareValue = a[sortBy.type] - b[sortBy.type]
+    }
+
+    return sortBy.desc === '-1' ? -compareValue : compareValue
+  })
 }
 
 function get(toyId) {

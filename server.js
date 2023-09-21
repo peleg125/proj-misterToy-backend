@@ -12,12 +12,7 @@ const app = express()
 
 // App Configuration
 const corsOptions = {
-  origin: [
-    'http://127.0.0.1:8080',
-    'http://localhost:8080',
-    'http://127.0.0.1:5173',
-    'http://localhost:5173',
-  ],
+  origin: ['http://127.0.0.1:8080', 'http://localhost:8080', 'http://127.0.0.1:5173', 'http://localhost:5173'],
   credentials: true,
 }
 
@@ -29,10 +24,14 @@ app.use(express.static('public'))
 // **************** Toys API ****************:
 // List
 app.get('/api/toy', (req, res) => {
-  const { name, price, labels, createdAt, inStock } = req.query
-  const filterBy = { name, price: +price, inStock }
+  const { name, price, labels, createdAt, inStock, type, desc } = req.query
+  const filterBy = { name, price: +price, inStock, labels, createdAt }
+  const sortBy = { type, desc }
+
+  console.log('from server query get', filterBy, sortBy)
+
   toyService
-    .query(filterBy)
+    .query(filterBy, sortBy)
     .then((toys) => {
       res.send(toys)
     })
