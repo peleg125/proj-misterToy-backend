@@ -1,46 +1,68 @@
 [
-    {
-        "_id": "t101",
-        "name": "Talking Doll",
-        "price": "1234",
-        "labels": [
-            "Doll",
-            "Battery Powered",
-            "Baby"
-        ],
-        "createdAt": 1631031801011,
-        "inStock": true,
-        "msgs": [
-            "Toy with Bulk",
-            "Really strong"
-        ]
-    },
-    {
-        "name": "edited toy car 2",
-        "labels": "['On Wheels','Dolls', 'YEAHH']",
-        "inStock": true,
-        "price": 50,
-        "_id": "8uVwY",
-        "createdAt": 1695228506500
-    },
-    {
-        "name": "ewewew",
-        "labels": [
-            "Outdoor"
-        ],
-        "inStock": true,
-        "price": "222",
-        "_id": "ztTgj",
-        "createdAt": 1695295649441
-    },
-    {
-        "name": "hey",
-        "labels": [
-            "Fun"
-        ],
-        "inStock": false,
-        "price": "22",
-        "_id": "jteQO",
-        "createdAt": 1695300104419
-    }
+  {
+    "_id": "t101",
+    "name": "Talking Doll",
+    "price": 1234,
+    "labels": ["Doll", "Battery Powered", "Baby"],
+    "createdAt": 1631031801011,
+    "inStock": true,
+    "msgs": ["Toy with Bulk", "Really strong"]
+  },
+  {
+    "name": "edited toy car 2",
+    "labels": ["On Wheels", "Dolls"],
+    "inStock": true,
+    "price": 50,
+    "_id": "8uVwY",
+    "createdAt": 1695228506500
+  },
+  {
+    "name": "Destructomon",
+    "labels": ["Outdoor"],
+    "inStock": true,
+    "price": 15,
+    "_id": "ztTgj",
+    "createdAt": 1695295649441,
+    "msgs": ["Toy with Bulk", "Really strong"]
+  },
+  {
+    "name": "hey",
+    "labels": ["Fun"],
+    "inStock": false,
+    "price": 22,
+    "_id": "jteQO",
+    "createdAt": 1695300104419
+  },
+  {
+    "name": "Dollie",
+    "labels": ["Fun"],
+    "inStock": true,
+    "price": 10,
+    "_id": "7qcIV",
+    "createdAt": 1695306228150
+  },
+  {
+    "name": "Cow stuffie",
+    "labels": [],
+    "inStock": true,
+    "price": 5,
+    "_id": "E54qK",
+    "createdAt": 1695306240344
+  },
+  {
+    "name": "new one",
+    "labels": ["Outdoor"],
+    "inStock": true,
+    "price": 33,
+    "_id": "B0c7p",
+    "createdAt": 1695307722057
+  },
+  {
+    "name": "hey",
+    "labels": [],
+    "inStock": true,
+    "price": 323,
+    "_id": "5g3gM",
+    "createdAt": 1695307787133
+  }
 ]

@@ -26,9 +26,8 @@ app.use(express.static('public'))
 app.get('/api/toy', (req, res) => {
   const { name, price, labels, createdAt, inStock, type, desc } = req.query
   const filterBy = { name, price: +price, inStock, labels, createdAt }
-  const sortBy = { type, desc }
 
-  console.log('from server query get', filterBy, sortBy)
+  const sortBy = { type, desc }
 
   toyService
     .query(filterBy, sortBy)
@@ -49,7 +48,7 @@ app.post('/api/toy', (req, res) => {
     name,
     labels,
     inStock,
-    price,
+    price: +price,
   }
   toyService
     .save(toy)
