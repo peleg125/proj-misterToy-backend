@@ -11,6 +11,8 @@ export const toyService = {
 }
 
 function query(filterBy = {}, sortBy) {
+  if (!filterBy) return Promise.resolve(toys)
+
   let filteredToys = toys
 
   if (filterBy.name) {

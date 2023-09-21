@@ -2,14 +2,18 @@
     {
         "_id": "t101",
         "name": "Talking Doll",
-        "price": 123,
+        "price": "1234",
         "labels": [
             "Doll",
             "Battery Powered",
             "Baby"
         ],
         "createdAt": 1631031801011,
-        "inStock": true
+        "inStock": true,
+        "msgs": [
+            "Toy with Bulk",
+            "Really strong"
+        ]
     },
     {
         "name": "edited toy car 2",
@@ -18,5 +22,25 @@
         "price": 50,
         "_id": "8uVwY",
         "createdAt": 1695228506500
+    },
+    {
+        "name": "ewewew",
+        "labels": [
+            "Outdoor"
+        ],
+        "inStock": true,
+        "price": "222",
+        "_id": "ztTgj",
+        "createdAt": 1695295649441
+    },
+    {
+        "name": "hey",
+        "labels": [
+            "Fun"
+        ],
+        "inStock": false,
+        "price": "22",
+        "_id": "jteQO",
+        "createdAt": 1695300104419
     }
 ]
