@@ -10,7 +10,7 @@
   },
   {
     "name": "edited toy car 2",
-    "labels": ["On Wheels", "Dolls", "YEAHH"],
+    "labels": ["On Wheels", "Dolls"],
     "inStock": true,
     "price": 50,
     "_id": "8uVwY",

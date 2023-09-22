@@ -13,19 +13,19 @@ export const toyService = {
 function query(filterBy = {}, sortBy) {
   if (!filterBy) return Promise.resolve(toys)
 
-  let filteredToys = toys
+  let filteredToys = []
 
   if (filterBy.name) {
     const regExp = new RegExp(filterBy.name, 'i')
-    filteredToys = filteredToys.filter((toy) => regExp.test(toy.name))
+    filteredToys = toys.filter((toy) => regExp.test(toy.name))
   }
 
   if (filterBy.inStock !== undefined) {
-    filteredToys = filteredToys.filter((toy) => toy.inStock === JSON.parse(filterBy.inStock))
+    filteredToys = toys.filter((toy) => toy.inStock === JSON.parse(filterBy.inStock)) //very bad
   }
 
   if (filterBy.labels && filterBy.labels.length > 0) {
-    filteredToys = filteredToys.filter((toy) => filterBy.labels.some((label) => toy.labels.includes(label)))
+    filteredToys = toys.filter((toy) => filterBy.labels.some((label) => toy.labels.includes(label)))
   }
   sortToysBy(filteredToys, sortBy)
   return Promise.resolve(filteredToys)
