@@ -1,3 +1,5 @@
+import * as dotenv from 'dotenv'
+dotenv.config()
 import path, { dirname } from 'path'
 import { fileURLToPath } from 'url'
 import express from 'express'
@@ -6,6 +8,7 @@ import cookieParser from 'cookie-parser'
 
 import { toyService } from './services/toy.service.js'
 import { loggerService } from './services/logger.service.js'
+const { APIKEY, PORT = 3030 } = process.env
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const app = express()
@@ -23,6 +26,15 @@ app.use(express.static('public'))
 
 // **************** Toys API ****************:
 // List
+
+app.get('/api/getconfig', (req, res) => {
+  const config = {
+    apiKey: APIKEY,
+  }
+
+  res.send(config)
+})
+
 app.get('/api/toy', (req, res) => {
   const { name, price, labels, createdAt, inStock, type, desc } = req.query
   const filterBy = { name, price: +price, inStock, labels, createdAt }
@@ -117,7 +129,8 @@ app.get('/**', (req, res) => {
 
 // Listen will always be the last line in our server!
 // const port = 3030
-const port = process.env.PORT || 3030
+
+const port = PORT
 app.listen(port, () => {
   loggerService.info(`Server listening on port http://127.0.0.1:${port}/`)
 })
