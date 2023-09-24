@@ -2,3 +2,4 @@ node_modules
 logs/backend.log
 data/toy.json
 .env
+logs/backend.log
