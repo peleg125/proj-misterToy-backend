@@ -6,8 +6,11 @@ import express from 'express'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
 
-import { toyService } from './services/toy.service.js'
 import { loggerService } from './services/logger.service.js'
+import { toyRoutes } from './api/toy/toy.routes.js'
+import { authRoutes } from './api/auth/auth.routes.js'
+import { userRoutes } from './api/user/user.routes.js'
+
 const { APIKEY, PORT = 3030 } = process.env
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -24,104 +27,9 @@ app.use(cookieParser()) // for res.cookies
 app.use(express.json()) // for req.body
 app.use(express.static('public'))
 
-// **************** Toys API ****************:
-// List
-
-app.get('/api/getconfig', (req, res) => {
-  const config = {
-    apiKey: APIKEY,
-  }
-
-  res.send(config)
-})
-
-app.get('/api/toy', (req, res) => {
-  const { name, price, labels, createdAt, inStock, type, desc } = req.query
-  const filterBy = { name, price: +price, inStock, labels, createdAt }
-
-  const sortBy = { type, desc }
-
-  toyService
-    .query(filterBy, sortBy)
-    .then((toys) => {
-      res.send(toys)
-    })
-    .catch((err) => {
-      loggerService.error('Cannot load toys', err)
-      res.status(400).send('Cannot load toys')
-    })
-})
-
-// Add
-app.post('/api/toy', (req, res) => {
-  const { name, price, labels, inStock } = req.body
-
-  const toy = {
-    name,
-    labels,
-    inStock,
-    price: +price,
-  }
-  toyService
-    .save(toy)
-    .then((savedToy) => {
-      res.send(savedToy)
-    })
-    .catch((err) => {
-      loggerService.error('Cannot add toy', err)
-      res.status(400).send('Cannot add toy')
-    })
-})
-
-// // Edit
-app.put('/api/toy', (req, res) => {
-  const { _id, name, price, labels, inStock } = req.body
-  const toy = {
-    _id,
-    name,
-    labels,
-    inStock,
-    price,
-  }
-  toyService
-    .save(toy)
-    .then((savedToy) => {
-      res.send(savedToy)
-    })
-    .catch((err) => {
-      loggerService.error('Cannot update toy', err)
-      res.status(400).send('Cannot update toy')
-    })
-})
-
-// Read - getById
-app.get('/api/toy/:toyId', (req, res) => {
-  const { toyId } = req.params
-  toyService
-    .get(toyId)
-    .then((toy) => {
-      toy.msgs = ['Toy with Bulk', 'Really strong']
-      res.send(toy)
-    })
-    .catch((err) => {
-      loggerService.error('Cannot get toy', err)
-      res.status(400).send(err)
-    })
-})
-
-// Remove
-app.delete('/api/toy/:toyId', (req, res) => {
-  const { toyId } = req.params
-  toyService
-    .remove(toyId)
-    .then((msg) => {
-      res.send({ msg, toyId })
-    })
-    .catch((err) => {
-      loggerService.error('Cannot delete toy', err)
-      res.status(400).send('Cannot delete toy, ' + err)
-    })
-})
+app.use('/api/auth', authRoutes)
+app.use('/api/user', userRoutes)
+app.use('/api/toy', toyRoutes)
 
 app.get('/**', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'))

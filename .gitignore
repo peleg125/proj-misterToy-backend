@@ -3,3 +3,5 @@ logs/backend.log
 data/toy.json
 .env
 logs/backend.log
+data
+data/toy.json

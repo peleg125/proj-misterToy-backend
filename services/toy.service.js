@@ -17,15 +17,15 @@ function query(filterBy = {}, sortBy) {
 
   if (filterBy.name) {
     const regExp = new RegExp(filterBy.name, 'i')
-    filteredToys = toys.filter((toy) => regExp.test(toy.name))
+    filteredToys = filteredToys.filter((toy) => regExp.test(toy.name))
   }
 
   if (filterBy.inStock !== undefined) {
-    filteredToys = toys.filter((toy) => toy.inStock === JSON.parse(filterBy.inStock)) //very bad
+    filteredToys = filteredToys.filter((toy) => toy.inStock === JSON.parse(filterBy.inStock))
   }
 
   if (filterBy.labels && filterBy.labels.length > 0) {
-    filteredToys = toys.filter((toy) => filterBy.labels.some((label) => toy.labels.includes(label)))
+    filteredToys = filteredToys.filter((toy) => filterBy.labels.some((label) => toy.labels.includes(label)))
   }
   sortToysBy(filteredToys, sortBy)
   return Promise.resolve(filteredToys)
