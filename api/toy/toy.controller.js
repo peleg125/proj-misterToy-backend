@@ -50,9 +50,9 @@ export async function saveToy(req, res) {
 export async function getToyById(req, res) {
   try {
     const { toyId } = req.params
+
     const toy = await toyService.getById(toyId)
     res.json(toy)
-    loggerService.info('get by Id', toy)
   } catch (err) {
     loggerService.error('Cannot get toy', err)
     res.status(400).send('Cannot get toy')

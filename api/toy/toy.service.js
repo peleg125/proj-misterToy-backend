@@ -13,7 +13,7 @@ async function query(filterBy = {}, sortBy = {}) {
       criteria.name = { $regex: filterBy.name, $options: 'i' }
     }
 
-    if (filterBy.inStock !== undefined) {
+    if (filterBy.inStock && filterBy.inStock !== undefined) {
       criteria.inStock = JSON.parse(filterBy.inStock)
     }
 
@@ -42,8 +42,6 @@ async function getById(toyId) {
   try {
     const collection = await dbService.getCollection('toy')
     const toy = await collection.findOne({ _id: ObjectId(toyId) })
-    if (!toy) loggerService.error(`no toy ${toyId}`)
-    if (toy) loggerService.info(`while finding toy ${toyId}`, toy)
     return toy
   } catch (err) {
     loggerService.error(`while finding toy ${toyId}`, err)

@@ -35,6 +35,7 @@ export async function signup(req, res) {
     res.json(user)
   } catch (err) {
     loggerService.error('Failed to signup ' + err)
+
     res.status(500).send({ err: 'Failed to signup' })
   }
 }

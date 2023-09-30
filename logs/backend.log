@@ -471,3 +471,417 @@
 30.9.2023, 13:54:22 - INFO - Req was made | /
 30.9.2023, 13:56:07 - INFO - Req was made | /
 30.9.2023, 13:56:10 - INFO - Req was made | /
+30.9.2023, 14:40:34 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:44:37 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 14:45:47 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 14:47:28 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:47:38 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 14:48:06 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:48:07 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 14:48:23 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:48:55 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:49:18 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:49:28 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 14:50:08 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:50:44 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 14:51:48 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:51:50 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 14:53:12 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:53:34 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:53:42 - DEBUG - auth.service - login with username: muki
+30.9.2023, 14:53:43 - ERROR - Failed to Login Error: Invalid username or password
+30.9.2023, 14:53:54 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 14:55:26 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:55:29 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 14:56:11 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:56:14 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 14:56:20 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:56:22 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 14:57:08 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:57:46 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:58:06 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 14:58:08 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 15:00:32 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 15:00:43 - ERROR - Failed to signup ReferenceError: loggerSerivce is not defined
+30.9.2023, 15:01:26 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 15:02:07 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 15:02:54 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 15:03:34 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 15:03:36 - DEBUG - auth.service - signup with username: peleg, fullname: peleg
+30.9.2023, 15:03:37 - DEBUG - auth.route - new account created: {"username":"peleg","password":"$2b$10$zGhAlZXxrvwwAuHIE67pzeoy0F89B7QqXrdShWTLleWMzFlpwglwi","fullname":"peleg","score":0,"_id":"65180e98e822f915f5ff844e"}
+30.9.2023, 15:03:37 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 15:03:45 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 15:03:53 - INFO - Req was made | /
+30.9.2023, 15:03:53 - INFO - Req was made | /
+30.9.2023, 15:03:54 - INFO - Req was made | /
+30.9.2023, 15:04:18 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 15:04:24 - DEBUG - auth.service - signup with username: peleg, fullname: peleg
+30.9.2023, 15:04:24 - ERROR - cannot insert user | Error: Username taken
+30.9.2023, 15:04:24 - ERROR - Failed to signup Error: Username taken
+30.9.2023, 15:04:28 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 15:04:28 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 15:05:51 - DEBUG - auth.service - login with username: muki
+30.9.2023, 15:05:51 - ERROR - Failed to Login Error: Invalid username or password
+30.9.2023, 15:05:55 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 15:05:55 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 17:06:21 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 17:06:21 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 17:06:27 - INFO - Req was made | /
+30.9.2023, 17:06:27 - INFO - Req was made | /
+30.9.2023, 17:06:27 - INFO - Req was made | /
+30.9.2023, 17:06:30 - INFO - Req was made | /
+30.9.2023, 17:06:30 - INFO - Req was made | /
+30.9.2023, 17:06:30 - INFO - Req was made | /
+30.9.2023, 17:06:31 - INFO - Req was made | /
+30.9.2023, 17:06:31 - INFO - Req was made | /
+30.9.2023, 17:06:31 - INFO - Req was made | /
+30.9.2023, 17:06:31 - ERROR - no toy undefined
+30.9.2023, 17:06:31 - INFO - get by Id | null
+30.9.2023, 17:06:32 - INFO - Req was made | /
+30.9.2023, 17:06:32 - INFO - Req was made | /
+30.9.2023, 17:06:32 - INFO - Req was made | /
+30.9.2023, 17:06:33 - INFO - Req was made | /
+30.9.2023, 17:06:33 - INFO - Req was made | /
+30.9.2023, 17:06:34 - INFO - Req was made | /
+30.9.2023, 17:10:05 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 17:10:05 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 17:10:08 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 17:10:08 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 17:10:11 - INFO - Req was made | /
+30.9.2023, 17:10:11 - INFO - Req was made | /
+30.9.2023, 17:10:11 - INFO - Req was made | /
+30.9.2023, 17:10:20 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 17:10:20 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 17:11:25 - INFO - Req was made | /
+30.9.2023, 17:11:25 - INFO - Req was made | /
+30.9.2023, 17:11:26 - INFO - Req was made | /
+30.9.2023, 17:11:28 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 17:11:29 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 17:14:53 - INFO - get by Id | null
+30.9.2023, 17:14:53 - ERROR - no toy undefined
+30.9.2023, 17:14:53 - INFO - Req was made | /
+30.9.2023, 17:14:53 - INFO - Req was made | /
+30.9.2023, 17:14:54 - INFO - Req was made | /
+30.9.2023, 17:15:47 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 17:15:48 - ERROR - no toy undefined
+30.9.2023, 17:15:48 - INFO - get by Id | null
+30.9.2023, 17:15:48 - INFO - Req was made | /
+30.9.2023, 17:15:48 - INFO - Req was made | /
+30.9.2023, 17:15:48 - INFO - Req was made | /
+30.9.2023, 17:15:50 - INFO - Req was made | /
+30.9.2023, 17:15:50 - INFO - Req was made | /
+30.9.2023, 17:15:51 - INFO - Req was made | /
+30.9.2023, 17:16:35 - DEBUG - auth.service - signup with username: newuser, fullname: Newuser
+30.9.2023, 17:16:35 - DEBUG - auth.route - new account created: {"username":"newuser","password":"$2b$10$2nCL.R2SRyPlX4omyA.35OwZnhu2XbPHTxXygcqkgHGh8Mar3rpw6","fullname":"Newuser","score":0,"_id":"65182dc3a7c2ca1f17f572a1"}
+30.9.2023, 17:16:35 - DEBUG - auth.service - login with username: newuser
+30.9.2023, 17:16:50 - INFO - Req was made | /
+30.9.2023, 17:16:50 - INFO - Req was made | /
+30.9.2023, 17:16:50 - INFO - Req was made | /
+30.9.2023, 17:17:34 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 17:17:35 - ERROR - no toy undefined
+30.9.2023, 17:17:35 - INFO - get by Id | null
+30.9.2023, 17:17:35 - INFO - Req was made | /
+30.9.2023, 17:17:35 - INFO - Req was made | /
+30.9.2023, 17:17:36 - INFO - Req was made | /
+30.9.2023, 17:18:19 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 17:18:21 - ERROR - no toy undefined
+30.9.2023, 17:18:21 - INFO - get by Id | null
+30.9.2023, 17:18:21 - INFO - Req was made | /
+30.9.2023, 17:18:21 - INFO - Req was made | /
+30.9.2023, 17:18:21 - INFO - Req was made | /
+30.9.2023, 17:18:43 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 17:18:44 - ERROR - while finding toy 7qcIV | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 17:18:44 - ERROR - Cannot get toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 17:19:06 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 17:19:13 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 17:19:15 - ERROR - while finding toy 7qcIV | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 17:19:15 - ERROR - Cannot get toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 17:24:42 - INFO - Req was made | /
+30.9.2023, 17:24:43 - INFO - Req was made | /
+30.9.2023, 17:24:43 - INFO - Req was made | /
+30.9.2023, 17:24:47 - INFO - Req was made | /
+30.9.2023, 17:24:48 - INFO - Req was made | /
+30.9.2023, 17:24:49 - INFO - while finding toy 65182f9f9161f417dbd9917b | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:24:49 - INFO - get by Id | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:24:55 - INFO - while finding toy 65182f9f9161f417dbd9917b | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:24:55 - INFO - get by Id | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:26:52 - INFO - while finding toy 65182f9f9161f417dbd9917b | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:26:52 - INFO - get by Id | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:27:26 - INFO - while finding toy 65182f9f9161f417dbd9917b | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:27:26 - INFO - get by Id | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:27:40 - INFO - while finding toy 65182f9f9161f417dbd9917b | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:27:40 - INFO - get by Id | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:27:44 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 17:27:52 - INFO - while finding toy 65182f9f9161f417dbd9917b | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:27:52 - INFO - get by Id | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:28:07 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 17:28:07 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 17:28:09 - INFO - while finding toy 65182f9f9161f417dbd9917b | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:28:09 - INFO - get by Id | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:28:12 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 17:28:12 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 17:29:07 - INFO - while finding toy 65182f9f9161f417dbd9917b | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:29:07 - INFO - get by Id | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:29:29 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 17:29:34 - INFO - Req was made | /
+30.9.2023, 17:29:34 - INFO - Req was made | /
+30.9.2023, 17:29:34 - INFO - Req was made | /
+30.9.2023, 17:29:36 - INFO - get by Id | {"_id":"65182f9f9161f417dbd9917b","name":"Racing Fury","labels":["On wheels"],"inStock":true,"price":50,"createdAt":1695228506500}
+30.9.2023, 17:29:53 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 17:29:57 - INFO - Req was made | /
+30.9.2023, 17:29:57 - INFO - Req was made | /
+30.9.2023, 17:29:57 - INFO - Req was made | /
+30.9.2023, 17:33:05 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 17:33:14 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 17:33:14 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 17:36:14 - INFO - Req was made | /
+30.9.2023, 17:36:14 - INFO - Req was made | /
+30.9.2023, 17:36:14 - INFO - Req was made | /
+30.9.2023, 17:36:32 - INFO - Req was made | /
+30.9.2023, 17:36:32 - INFO - Req was made | /
+30.9.2023, 17:36:32 - INFO - Req was made | /
+30.9.2023, 17:36:41 - INFO - Req was made | /
+30.9.2023, 17:36:41 - INFO - Req was made | /
+30.9.2023, 17:36:42 - INFO - Req was made | /
+30.9.2023, 17:36:44 - INFO - Req was made | /
+30.9.2023, 17:36:44 - INFO - Req was made | /
+30.9.2023, 17:36:44 - INFO - Req was made | /
+30.9.2023, 17:36:51 - INFO - Req was made | /
+30.9.2023, 17:36:51 - INFO - Req was made | /
+30.9.2023, 17:36:51 - INFO - Req was made | /
+30.9.2023, 17:37:34 - INFO - Req was made | /
+30.9.2023, 17:37:34 - INFO - Req was made | /
+30.9.2023, 17:37:34 - INFO - Req was made | /
+30.9.2023, 17:41:58 - INFO - Req was made | /
+30.9.2023, 17:41:58 - INFO - Req was made | /
+30.9.2023, 17:41:58 - INFO - Req was made | /
+30.9.2023, 17:43:33 - INFO - Req was made | /
+30.9.2023, 17:45:53 - INFO - Req was made | /
+30.9.2023, 17:45:53 - INFO - Req was made | /
+30.9.2023, 17:45:53 - INFO - Req was made | /
+30.9.2023, 17:45:57 - INFO - Req was made | /
+30.9.2023, 17:45:57 - INFO - Req was made | /
+30.9.2023, 17:45:57 - INFO - Req was made | /
+30.9.2023, 17:46:05 - INFO - Req was made | /
+30.9.2023, 17:46:05 - INFO - Req was made | /
+30.9.2023, 17:46:05 - INFO - Req was made | /
+30.9.2023, 17:46:19 - ERROR - while finding toy undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 17:46:19 - ERROR - Cannot get toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 17:46:51 - INFO - Req was made | /
+30.9.2023, 17:46:51 - INFO - Req was made | /
+30.9.2023, 17:46:51 - INFO - Req was made | /
+30.9.2023, 17:47:13 - INFO - Req was made | /
+30.9.2023, 17:47:13 - INFO - Req was made | /
+30.9.2023, 17:47:13 - INFO - Req was made | /
+30.9.2023, 17:47:59 - ERROR - while finding toy undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 17:47:59 - ERROR - Cannot get toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 17:48:06 - INFO - Req was made | /
+30.9.2023, 17:48:06 - INFO - Req was made | /
+30.9.2023, 17:48:06 - INFO - Req was made | /
+30.9.2023, 17:48:52 - INFO - Req was made | /
+30.9.2023, 17:48:52 - INFO - Req was made | /
+30.9.2023, 17:48:52 - INFO - Req was made | /
+30.9.2023, 17:49:27 - INFO - Req was made | /
+30.9.2023, 17:49:29 - INFO - Req was made | /
+30.9.2023, 17:49:29 - INFO - Req was made | /
+30.9.2023, 17:49:29 - INFO - Req was made | /
+30.9.2023, 17:56:32 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 17:56:32 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 17:56:34 - INFO - Req was made | /
+30.9.2023, 17:56:34 - INFO - Req was made | /
+30.9.2023, 17:56:35 - INFO - Req was made | /
+30.9.2023, 17:56:36 - INFO - Req was made | /
+30.9.2023, 17:56:36 - INFO - Req was made | /
+30.9.2023, 17:56:36 - INFO - Req was made | /
+30.9.2023, 17:56:48 - INFO - Req was made | /
+30.9.2023, 17:56:48 - INFO - Req was made | /
+30.9.2023, 17:56:48 - INFO - Req was made | /
+30.9.2023, 17:56:53 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 17:56:53 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 17:56:56 - INFO - Req was made | /
+30.9.2023, 17:56:56 - INFO - Req was made | /
+30.9.2023, 17:56:56 - INFO - Req was made | /
+30.9.2023, 18:06:29 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 18:06:33 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 18:06:33 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 18:06:36 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 18:06:36 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 18:09:43 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 18:15:26 - INFO - Req was made | /
+30.9.2023, 18:15:29 - INFO - Req was made | /
+30.9.2023, 18:27:38 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 18:27:43 - INFO - Req was made | /
+30.9.2023, 18:27:43 - INFO - Req was made | /
+30.9.2023, 18:27:44 - INFO - Req was made | /
+30.9.2023, 18:27:48 - INFO - Req was made | /
+30.9.2023, 18:27:48 - INFO - Req was made | /
+30.9.2023, 18:27:48 - INFO - Req was made | /
+30.9.2023, 18:34:57 - INFO - Req was made | /
+30.9.2023, 18:34:57 - INFO - Req was made | /
+30.9.2023, 18:34:57 - INFO - Req was made | /
+30.9.2023, 19:45:48 - INFO - Req was made | /
+30.9.2023, 19:45:48 - INFO - Req was made | /
+30.9.2023, 19:45:48 - INFO - Req was made | /
+30.9.2023, 19:45:49 - INFO - Req was made | /
+30.9.2023, 19:45:49 - INFO - Req was made | /
+30.9.2023, 19:45:50 - INFO - Req was made | /
+30.9.2023, 19:45:53 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 19:45:53 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","score":0}
+30.9.2023, 19:45:56 - INFO - Req was made | /
+30.9.2023, 19:45:56 - INFO - Req was made | /
+30.9.2023, 19:45:56 - INFO - Req was made | /
+30.9.2023, 19:45:58 - INFO - Req was made | /
+30.9.2023, 19:45:58 - INFO - Req was made | /
+30.9.2023, 19:45:58 - INFO - Req was made | /
+30.9.2023, 19:45:59 - INFO - Req was made | /
+30.9.2023, 19:45:59 - INFO - Req was made | /
+30.9.2023, 19:45:59 - INFO - Req was made | /
+30.9.2023, 19:46:00 - INFO - Req was made | /
+30.9.2023, 19:46:00 - INFO - Req was made | /
+30.9.2023, 19:46:01 - INFO - Req was made | /
+30.9.2023, 19:52:56 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 19:52:57 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+30.9.2023, 19:52:59 - INFO - Req was made | /
+30.9.2023, 19:52:59 - INFO - Req was made | /
+30.9.2023, 19:52:59 - INFO - Req was made | /
+30.9.2023, 19:53:09 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 19:53:15 - DEBUG - auth.service - login with username: newuser
+30.9.2023, 19:53:15 - ERROR - Failed to Login Error: Invalid username or password
+30.9.2023, 19:53:25 - DEBUG - auth.service - signup with username: user, fullname: user
+30.9.2023, 19:53:26 - DEBUG - auth.route - new account created: {"username":"user","password":"$2b$10$FkZcZJHl.qr0D7Ps6LGjbuDcXobIBnJ7qx/RklnVHN9.i3jXR5xz2","fullname":"user","score":0,"_id":"65185286a349413117f1bafc"}
+30.9.2023, 19:53:26 - DEBUG - auth.service - login with username: user
+30.9.2023, 19:53:27 - INFO - Req was made | /
+30.9.2023, 19:53:27 - INFO - Req was made | /
+30.9.2023, 19:53:27 - INFO - Req was made | /
+30.9.2023, 19:53:34 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 19:53:37 - WARN - userattempted to perform admin action
+30.9.2023, 19:53:46 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 19:53:47 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+30.9.2023, 19:53:48 - INFO - Req was made | /
+30.9.2023, 19:53:48 - INFO - Req was made | /
+30.9.2023, 19:53:48 - INFO - Req was made | /
+30.9.2023, 19:53:51 - INFO - Req was made | /
+30.9.2023, 19:53:51 - INFO - Req was made | /
+30.9.2023, 19:53:51 - INFO - Req was made | /
+30.9.2023, 19:54:25 - INFO - Req was made | /
+30.9.2023, 19:54:25 - INFO - Req was made | /
+30.9.2023, 20:00:53 - INFO - Req was made | /
+30.9.2023, 20:00:53 - INFO - Req was made | /
+30.9.2023, 20:00:53 - INFO - Req was made | /
+30.9.2023, 20:00:54 - INFO - Req was made | /
+30.9.2023, 20:00:54 - INFO - Req was made | /
+30.9.2023, 20:00:55 - INFO - Req was made | /
+30.9.2023, 20:01:45 - INFO - Req was made | /
+30.9.2023, 20:01:45 - INFO - Req was made | /
+30.9.2023, 20:01:45 - INFO - Req was made | /
+30.9.2023, 20:02:34 - INFO - Req was made | /
+30.9.2023, 20:02:34 - INFO - Req was made | /
+30.9.2023, 20:02:34 - INFO - Req was made | /
+30.9.2023, 20:02:36 - INFO - Req was made | /
+30.9.2023, 20:02:37 - INFO - Req was made | /
+30.9.2023, 20:02:38 - INFO - Req was made | /
+30.9.2023, 20:02:39 - INFO - Req was made | /
+30.9.2023, 20:02:50 - INFO - Req was made | /
+30.9.2023, 20:02:52 - INFO - Req was made | /
+30.9.2023, 20:02:53 - INFO - Req was made | /
+30.9.2023, 20:02:54 - INFO - Req was made | /
+30.9.2023, 20:02:55 - INFO - Req was made | /
+30.9.2023, 20:05:50 - INFO - Req was made | /
+30.9.2023, 20:05:50 - INFO - Req was made | /
+30.9.2023, 20:05:51 - INFO - Req was made | /
+30.9.2023, 20:05:51 - INFO - Req was made | /
+30.9.2023, 20:05:55 - INFO - Req was made | /
+30.9.2023, 20:05:55 - INFO - Req was made | /
+30.9.2023, 20:05:55 - INFO - Req was made | /
+30.9.2023, 20:05:58 - INFO - Req was made | /
+30.9.2023, 20:06:00 - INFO - Req was made | /
+30.9.2023, 20:06:01 - INFO - Req was made | /
+30.9.2023, 20:06:03 - INFO - Req was made | /
+30.9.2023, 20:06:05 - INFO - Req was made | /
+30.9.2023, 20:07:07 - INFO - Req was made | /
+30.9.2023, 20:07:09 - INFO - Req was made | /
+30.9.2023, 20:07:12 - INFO - Req was made | /
+30.9.2023, 20:07:13 - INFO - Req was made | /
+30.9.2023, 20:07:14 - INFO - Req was made | /
+30.9.2023, 20:11:26 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 20:11:29 - INFO - Req was made | /
+30.9.2023, 20:11:29 - INFO - Req was made | /
+30.9.2023, 20:11:29 - INFO - Req was made | /
+30.9.2023, 20:11:31 - INFO - Req was made | /
+30.9.2023, 20:11:33 - INFO - Req was made | /
+30.9.2023, 20:11:34 - INFO - Req was made | /
+30.9.2023, 20:11:35 - INFO - Req was made | /
+30.9.2023, 20:12:21 - INFO - Req was made | /
+30.9.2023, 20:12:39 - INFO - Req was made | /
+30.9.2023, 20:12:41 - INFO - Req was made | /
+30.9.2023, 20:12:41 - INFO - Req was made | /
+30.9.2023, 20:12:41 - INFO - Req was made | /
+30.9.2023, 20:12:43 - INFO - Req was made | /
+30.9.2023, 20:12:44 - INFO - Req was made | /
+30.9.2023, 20:12:45 - INFO - Req was made | /
+30.9.2023, 20:14:28 - INFO - Req was made | /
+30.9.2023, 20:14:30 - INFO - Req was made | /
+30.9.2023, 20:14:30 - INFO - Req was made | /
+30.9.2023, 20:14:30 - INFO - Req was made | /
+30.9.2023, 20:14:32 - INFO - Req was made | /
+30.9.2023, 20:14:33 - INFO - Req was made | /
+30.9.2023, 20:14:41 - INFO - Req was made | /
+30.9.2023, 20:14:46 - INFO - Req was made | /
+30.9.2023, 20:14:46 - INFO - Req was made | /
+30.9.2023, 20:14:46 - INFO - Req was made | /
+30.9.2023, 20:14:48 - INFO - Req was made | /
+30.9.2023, 20:14:53 - INFO - Req was made | /
+30.9.2023, 20:14:54 - INFO - Req was made | /
+30.9.2023, 20:14:55 - INFO - Req was made | /
+30.9.2023, 20:14:55 - INFO - Req was made | /
+30.9.2023, 20:15:02 - INFO - Req was made | /
+30.9.2023, 20:15:02 - INFO - Req was made | /
+30.9.2023, 20:15:06 - INFO - Req was made | /
+30.9.2023, 20:15:07 - INFO - Req was made | /
+30.9.2023, 20:15:08 - INFO - Req was made | /
+30.9.2023, 20:19:39 - INFO - Req was made | /
+30.9.2023, 20:19:39 - INFO - Req was made | /
+30.9.2023, 20:19:39 - INFO - Req was made | /
+30.9.2023, 20:21:50 - ERROR - while finding toy undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 20:21:50 - ERROR - Cannot get toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 20:21:54 - INFO - Req was made | /
+30.9.2023, 20:21:54 - INFO - Req was made | /
+30.9.2023, 20:21:54 - INFO - Req was made | /
+30.9.2023, 20:22:06 - INFO - Req was made | /
+30.9.2023, 20:22:06 - INFO - Req was made | /
+30.9.2023, 20:22:06 - INFO - Req was made | /
+30.9.2023, 20:25:03 - INFO - Req was made | /
+30.9.2023, 20:25:07 - INFO - Req was made | /
+30.9.2023, 20:25:08 - INFO - Req was made | /
+30.9.2023, 20:26:28 - INFO - Req was made | /
+30.9.2023, 20:26:29 - INFO - Req was made | /
+30.9.2023, 20:26:31 - INFO - Req was made | /
+30.9.2023, 20:30:36 - INFO - Req was made | /
+30.9.2023, 20:30:36 - INFO - Req was made | /
+30.9.2023, 20:30:36 - INFO - Req was made | /
+30.9.2023, 20:35:23 - INFO - Req was made | /
+30.9.2023, 20:35:27 - INFO - Req was made | /
+30.9.2023, 20:35:27 - INFO - Req was made | /
+30.9.2023, 20:35:28 - INFO - Req was made | /
+30.9.2023, 20:35:29 - INFO - Req was made | /
+30.9.2023, 20:35:30 - INFO - Req was made | /
+30.9.2023, 20:35:30 - INFO - Req was made | /
+30.9.2023, 20:35:32 - INFO - Req was made | /
+30.9.2023, 20:35:32 - INFO - Req was made | /
+30.9.2023, 20:35:41 - INFO - Req was made | /
+30.9.2023, 20:35:41 - INFO - Req was made | /
+30.9.2023, 20:35:41 - INFO - Req was made | /
+30.9.2023, 20:37:23 - INFO - Req was made | /
+30.9.2023, 20:37:23 - INFO - Req was made | /
+30.9.2023, 20:37:23 - INFO - Req was made | /
+30.9.2023, 20:54:35 - INFO - Req was made | /
+30.9.2023, 20:54:35 - INFO - Req was made | /
+30.9.2023, 20:54:35 - INFO - Req was made | /
+30.9.2023, 20:54:38 - ERROR - while finding toy undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 20:54:38 - ERROR - Cannot get toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 20:54:52 - INFO - Req was made | /
+30.9.2023, 20:54:52 - INFO - Req was made | /
+30.9.2023, 20:54:53 - INFO - Req was made | /
+30.9.2023, 20:55:45 - INFO - Req was made | /
+30.9.2023, 20:55:45 - INFO - Req was made | /
+30.9.2023, 20:55:46 - INFO - Req was made | /
