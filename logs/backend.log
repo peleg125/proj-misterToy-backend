@@ -885,3 +885,69 @@
 30.9.2023, 20:55:45 - INFO - Req was made | /
 30.9.2023, 20:55:45 - INFO - Req was made | /
 30.9.2023, 20:55:46 - INFO - Req was made | /
+30.9.2023, 21:05:12 - INFO - Server listening on port http://127.0.0.1:3030/
+30.9.2023, 21:05:16 - INFO - Req was made | /
+30.9.2023, 21:05:17 - INFO - Req was made | /
+30.9.2023, 21:05:17 - INFO - Req was made | /
+30.9.2023, 21:05:27 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 21:05:28 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+30.9.2023, 21:06:09 - INFO - Req was made | /
+30.9.2023, 21:06:09 - INFO - Req was made | /
+30.9.2023, 21:06:09 - INFO - Req was made | /
+30.9.2023, 21:06:16 - INFO - Req was made | /
+30.9.2023, 21:06:16 - INFO - Req was made | /
+30.9.2023, 21:06:17 - INFO - Req was made | /
+30.9.2023, 21:06:17 - ERROR - while finding toy undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 21:06:17 - ERROR - Cannot get toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+30.9.2023, 21:06:19 - INFO - Req was made | /
+30.9.2023, 21:06:19 - INFO - Req was made | /
+30.9.2023, 21:06:20 - INFO - Req was made | /
+30.9.2023, 21:08:28 - INFO - Req was made | /
+30.9.2023, 21:08:28 - INFO - Req was made | /
+30.9.2023, 21:08:29 - INFO - Req was made | /
+30.9.2023, 21:08:35 - INFO - Req was made | /
+30.9.2023, 21:08:35 - INFO - Req was made | /
+30.9.2023, 21:08:35 - INFO - Req was made | /
+30.9.2023, 21:08:39 - DEBUG - auth.service - login with username: peleg
+30.9.2023, 21:08:39 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+30.9.2023, 21:08:42 - INFO - Req was made | /
+30.9.2023, 21:08:42 - INFO - Req was made | /
+30.9.2023, 21:08:42 - INFO - Req was made | /
+30.9.2023, 21:09:33 - INFO - Req was made | /
+30.9.2023, 21:09:33 - INFO - Req was made | /
+30.9.2023, 21:09:33 - INFO - Req was made | /
+30.9.2023, 21:09:36 - INFO - Req was made | /
+30.9.2023, 21:09:36 - INFO - Req was made | /
+30.9.2023, 21:09:36 - INFO - Req was made | /
+30.9.2023, 21:09:41 - INFO - Req was made | /
+30.9.2023, 21:09:41 - INFO - Req was made | /
+30.9.2023, 21:09:41 - INFO - Req was made | /
+30.9.2023, 21:09:55 - INFO - Req was made | /
+30.9.2023, 21:09:55 - INFO - Req was made | /
+30.9.2023, 21:09:55 - INFO - Req was made | /
+30.9.2023, 21:10:12 - INFO - Req was made | /
+30.9.2023, 21:10:12 - INFO - Req was made | /
+30.9.2023, 21:10:13 - INFO - Req was made | /
+30.9.2023, 21:10:32 - INFO - Req was made | /
+30.9.2023, 21:10:32 - INFO - Req was made | /
+30.9.2023, 21:10:32 - INFO - Req was made | /
+30.9.2023, 21:10:39 - INFO - Req was made | /
+30.9.2023, 21:10:39 - INFO - Req was made | /
+30.9.2023, 21:10:39 - INFO - Req was made | /
+30.9.2023, 21:11:22 - INFO - Req was made | /
+30.9.2023, 21:11:22 - INFO - Req was made | /
+30.9.2023, 21:11:23 - INFO - Req was made | /
+30.9.2023, 21:12:12 - INFO - Req was made | /
+30.9.2023, 21:12:12 - INFO - Req was made | /
+30.9.2023, 21:12:12 - INFO - Req was made | /
+30.9.2023, 21:12:15 - INFO - Req was made | /
+30.9.2023, 21:12:15 - INFO - Req was made | /
+30.9.2023, 21:12:15 - INFO - Req was made | /
+30.9.2023, 21:12:40 - INFO - Req was made | /
+30.9.2023, 21:12:41 - INFO - Req was made | /
+30.9.2023, 21:12:41 - INFO - Req was made | /
+30.9.2023, 21:12:42 - INFO - Req was made | /
+30.9.2023, 21:12:43 - INFO - Req was made | /
+30.9.2023, 21:12:44 - INFO - Req was made | /
+30.9.2023, 21:12:44 - INFO - Req was made | /
+30.9.2023, 21:12:44 - INFO - Req was made | /
