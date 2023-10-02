@@ -1,14 +1,6 @@
 import { loggerService } from '../../services/logger.service.js'
 import { toyService } from './toy.service.js'
 
-// app.get('/api/getconfig', (req, res) => {
-//   const config = {
-//     apiKey: APIKEY,
-//   }
-
-//   res.send(config)
-// })
-
 export async function getToys(req, res) {
   try {
     const { name, price, labels, createdAt, inStock, type, desc } = req.query
@@ -67,5 +59,35 @@ export async function removeToy(req, res) {
   } catch (err) {
     loggerService.error('Cannot delete toy', err)
     res.status(400).send('Cannot delete toy')
+  }
+}
+
+export async function addToyMsg(req, res) {
+  const { loggedinUser } = req
+  try {
+    const toyId = req.params.id
+    const msg = {
+      txt: req.body.txt,
+      by: loggedinUser,
+    }
+    const savedMsg = await toyService.addToyMsg(toyId, msg)
+    res.json(savedMsg)
+  } catch (err) {
+    logger.error('Failed to update toy', err)
+    res.status(400).send({ err: 'Failed to update toy' })
+  }
+}
+
+export async function removeToyMsg(req, res) {
+  // const {loggedinUser} = req
+  try {
+    const toyId = req.params.id
+    const { msgId } = req.params
+
+    const removedId = await toyService.removeToyMsg(toyId, msgId)
+    res.send(removedId)
+  } catch (err) {
+    logger.error('Failed to remove toy msg', err)
+    res.status(400).send({ err: 'Failed to remove toy msg' })
   }
 }

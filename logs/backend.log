@@ -951,3 +951,417 @@
 30.9.2023, 21:12:44 - INFO - Req was made | /
 30.9.2023, 21:12:44 - INFO - Req was made | /
 30.9.2023, 21:12:44 - INFO - Req was made | /
+1.10.2023, 9:05:02 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 9:05:19 - INFO - Req was made | /
+1.10.2023, 9:05:19 - INFO - Req was made | /
+1.10.2023, 9:05:19 - INFO - Req was made | /
+1.10.2023, 9:05:23 - INFO - Req was made | /
+1.10.2023, 9:21:15 - INFO - Req was made | /
+1.10.2023, 9:21:15 - INFO - Req was made | /
+1.10.2023, 9:21:15 - INFO - Req was made | /
+1.10.2023, 9:21:24 - INFO - Req was made | /
+1.10.2023, 9:21:25 - INFO - Req was made | /
+1.10.2023, 9:21:27 - INFO - Req was made | /
+1.10.2023, 9:21:29 - INFO - Req was made | /
+1.10.2023, 9:23:31 - INFO - Req was made | /
+1.10.2023, 9:23:31 - INFO - Req was made | /
+1.10.2023, 9:23:31 - INFO - Req was made | /
+1.10.2023, 9:24:07 - INFO - Req was made | /
+1.10.2023, 9:24:07 - INFO - Req was made | /
+1.10.2023, 9:24:07 - INFO - Req was made | /
+1.10.2023, 11:43:42 - INFO - Req was made | /
+1.10.2023, 11:43:42 - INFO - Req was made | /
+1.10.2023, 11:43:42 - INFO - Req was made | /
+1.10.2023, 14:58:46 - INFO - Req was made | /
+1.10.2023, 14:58:46 - INFO - Req was made | /
+1.10.2023, 14:58:46 - INFO - Req was made | /
+1.10.2023, 15:03:35 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:05:06 - INFO - Req was made | /
+1.10.2023, 15:11:01 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:12:02 - INFO - Req was made | /
+1.10.2023, 15:12:02 - INFO - Req was made | /
+1.10.2023, 15:12:02 - INFO - Req was made | /
+1.10.2023, 15:26:31 - DEBUG - auth.service - signup with username: dude, fullname: dude
+1.10.2023, 15:26:31 - DEBUG - auth.route - new account created: {"username":"dude","password":"$2b$10$BnZoFAJGXnDhX1UDXMBgXuehEHrhj5v8EQA7QISULDGdsTlE4Rt7.","fullname":"dude","score":0,"_id":"65196577b868697496ab3943"}
+1.10.2023, 15:26:31 - DEBUG - auth.service - login with username: dude
+1.10.2023, 15:26:32 - INFO - Req was made | /
+1.10.2023, 15:26:32 - INFO - Req was made | /
+1.10.2023, 15:26:33 - INFO - Req was made | /
+1.10.2023, 15:30:10 - DEBUG - auth.service - login with username: peleg
+1.10.2023, 15:30:10 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+1.10.2023, 15:32:48 - DEBUG - auth.service - login with username: peleg
+1.10.2023, 15:32:48 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+1.10.2023, 15:32:58 - INFO - Req was made | /
+1.10.2023, 15:32:59 - INFO - Req was made | /
+1.10.2023, 15:32:59 - INFO - Req was made | /
+1.10.2023, 15:33:00 - INFO - Req was made | /
+1.10.2023, 15:33:00 - INFO - Req was made | /
+1.10.2023, 15:33:01 - INFO - Req was made | /
+1.10.2023, 15:33:02 - INFO - Req was made | /
+1.10.2023, 15:33:03 - INFO - Req was made | /
+1.10.2023, 15:33:03 - INFO - Req was made | /
+1.10.2023, 15:33:21 - INFO - Req was made | /
+1.10.2023, 15:33:21 - INFO - Req was made | /
+1.10.2023, 15:33:21 - INFO - Req was made | /
+1.10.2023, 15:33:33 - INFO - Req was made | /
+1.10.2023, 15:33:33 - INFO - Req was made | /
+1.10.2023, 15:33:33 - INFO - Req was made | /
+1.10.2023, 15:46:26 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:46:26 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:46:46 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:46:49 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:50:01 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:50:45 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:54:56 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:55:01 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:56:06 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:56:26 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:57:40 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 15:58:21 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 16:03:51 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 16:03:57 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 16:04:04 - INFO - Req was made | /
+1.10.2023, 16:04:04 - INFO - Req was made | /
+1.10.2023, 16:04:04 - INFO - Req was made | /
+1.10.2023, 16:04:45 - DEBUG - auth.service - login with username: peleg
+1.10.2023, 16:04:45 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+1.10.2023, 16:04:55 - INFO - Req was made | /
+1.10.2023, 16:04:56 - INFO - Req was made | /
+1.10.2023, 16:04:56 - INFO - Req was made | /
+1.10.2023, 16:23:08 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 16:23:42 - INFO - Req was made
+1.10.2023, 16:23:42 - INFO - Req was made
+1.10.2023, 16:23:42 - INFO - Req was made
+1.10.2023, 16:23:56 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 16:23:59 - INFO - Req was made
+1.10.2023, 16:23:59 - INFO - Req was made
+1.10.2023, 16:24:00 - INFO - Req was made
+1.10.2023, 16:25:06 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 16:25:21 - INFO - Req was made
+1.10.2023, 16:25:22 - INFO - Req was made
+1.10.2023, 16:25:22 - INFO - Req was made
+1.10.2023, 16:25:39 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 16:26:01 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 16:26:26 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 16:26:38 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 16:26:41 - INFO - Req was made
+1.10.2023, 16:26:41 - INFO - Req was made
+1.10.2023, 16:26:41 - INFO - Req was made
+1.10.2023, 16:27:01 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 16:27:09 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 16:27:12 - INFO - Req was made
+1.10.2023, 16:27:12 - INFO - Req was made
+1.10.2023, 16:27:12 - INFO - Req was made
+1.10.2023, 17:29:49 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 17:29:50 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 17:35:26 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 17:35:37 - INFO - Req was made
+1.10.2023, 17:35:37 - INFO - Req was made
+1.10.2023, 17:35:37 - INFO - Req was made
+1.10.2023, 17:37:00 - INFO - Req was made
+1.10.2023, 17:38:06 - INFO - Req was made
+1.10.2023, 17:38:18 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 17:38:21 - INFO - Req was made
+1.10.2023, 17:41:13 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 17:41:16 - INFO - Req was made
+1.10.2023, 17:41:16 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id')
+1.10.2023, 17:41:46 - DEBUG - auth.service - login with username: peleg
+1.10.2023, 17:41:46 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+1.10.2023, 17:42:21 - INFO - Req was made
+1.10.2023, 17:42:21 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id')
+1.10.2023, 17:44:56 - INFO - Req was made
+1.10.2023, 17:44:56 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id')
+1.10.2023, 17:45:40 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 17:45:46 - INFO - Req was made
+1.10.2023, 17:45:46 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id')
+1.10.2023, 17:46:25 - INFO - Req was made
+1.10.2023, 17:46:25 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id')
+1.10.2023, 17:46:36 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 17:46:39 - INFO - Req was made
+1.10.2023, 17:47:11 - INFO - Req was made
+1.10.2023, 17:47:11 - INFO - Req was made
+1.10.2023, 17:47:12 - INFO - Req was made
+1.10.2023, 17:47:20 - INFO - Req was made
+1.10.2023, 17:47:20 - INFO - Req was made
+1.10.2023, 17:47:20 - INFO - Req was made
+1.10.2023, 17:47:50 - INFO - Req was made
+1.10.2023, 17:52:10 - INFO - Req was made
+1.10.2023, 20:39:18 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 20:47:18 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 20:55:17 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 21:03:24 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 21:17:18 - INFO - Req was made
+1.10.2023, 21:19:31 - INFO - Req was made
+1.10.2023, 21:20:27 - INFO - Req was made
+1.10.2023, 21:25:15 - INFO - Req was made
+1.10.2023, 21:30:54 - INFO - Req was made
+1.10.2023, 21:30:54 - INFO - Req was made
+1.10.2023, 21:30:54 - INFO - Req was made
+1.10.2023, 21:30:59 - INFO - Req was made
+1.10.2023, 21:31:41 - DEBUG - auth.service - login with username: peleg
+1.10.2023, 21:31:41 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+1.10.2023, 21:31:43 - INFO - Req was made
+1.10.2023, 21:33:02 - INFO - Req was made
+1.10.2023, 21:33:03 - INFO - Req was made
+1.10.2023, 21:33:24 - INFO - Req was made
+1.10.2023, 21:35:00 - INFO - Req was made
+1.10.2023, 21:35:03 - INFO - Req was made
+1.10.2023, 21:35:08 - DEBUG - auth.service - login with username: peleg
+1.10.2023, 21:35:08 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+1.10.2023, 21:35:10 - INFO - Req was made
+1.10.2023, 21:35:35 - INFO - Req was made
+1.10.2023, 21:38:15 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 21:46:39 - INFO - Req was made
+1.10.2023, 21:47:10 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 21:47:13 - INFO - Req was made
+1.10.2023, 21:47:28 - INFO - Req was made
+1.10.2023, 21:47:28 - INFO - Req was made
+1.10.2023, 21:47:28 - INFO - Req was made
+1.10.2023, 21:48:00 - INFO - Req was made
+1.10.2023, 21:48:00 - INFO - Req was made
+1.10.2023, 21:48:00 - INFO - Req was made
+1.10.2023, 21:48:06 - INFO - Req was made
+1.10.2023, 22:37:21 - INFO - Req was made
+1.10.2023, 22:37:31 - DEBUG - auth.service - login with username: peleg
+1.10.2023, 22:37:31 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+1.10.2023, 22:38:07 - INFO - Req was made
+1.10.2023, 22:38:37 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:38:44 - INFO - Req was made
+1.10.2023, 22:39:00 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:39:02 - INFO - Req was made
+1.10.2023, 22:39:26 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:39:27 - INFO - Req was made
+1.10.2023, 22:39:36 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:40:01 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:40:03 - INFO - Req was made
+1.10.2023, 22:40:35 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:40:37 - INFO - Req was made
+1.10.2023, 22:41:07 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:41:28 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:41:35 - INFO - Req was made
+1.10.2023, 22:42:18 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:42:19 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:42:24 - INFO - Req was made
+1.10.2023, 22:42:51 - INFO - Req was made
+1.10.2023, 22:42:59 - INFO - Req was made
+1.10.2023, 22:44:38 - INFO - Req was made
+1.10.2023, 22:47:27 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:47:32 - INFO - Req was made
+1.10.2023, 22:47:46 - INFO - Req was made
+1.10.2023, 22:51:48 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:52:01 - INFO - Req was made
+1.10.2023, 22:53:42 - INFO - Req was made
+1.10.2023, 22:55:36 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:55:39 - INFO - Req was made
+1.10.2023, 22:55:50 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:55:52 - INFO - Req was made
+1.10.2023, 22:56:02 - INFO - Req was made
+1.10.2023, 22:56:19 - INFO - Req was made
+1.10.2023, 22:56:27 - INFO - Req was made
+1.10.2023, 22:56:59 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:57:01 - INFO - Req was made
+1.10.2023, 22:57:04 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:57:24 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:57:25 - INFO - Req was made
+1.10.2023, 22:57:41 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:57:42 - INFO - Req was made
+1.10.2023, 22:58:28 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 22:58:29 - INFO - Req was made
+1.10.2023, 23:03:16 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 23:03:23 - INFO - Req was made
+1.10.2023, 23:03:32 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 23:03:36 - INFO - Req was made
+1.10.2023, 23:03:46 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 23:03:51 - INFO - Req was made
+1.10.2023, 23:03:55 - INFO - Req was made
+1.10.2023, 23:04:01 - INFO - Req was made
+1.10.2023, 23:09:29 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 23:09:45 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 23:10:11 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 23:10:21 - INFO - Req was made
+1.10.2023, 23:10:52 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 23:10:55 - INFO - Req was made
+1.10.2023, 23:12:02 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 23:12:06 - INFO - Req was made
+1.10.2023, 23:12:57 - INFO - Server listening on port http://127.0.0.1:3030/
+1.10.2023, 23:13:00 - INFO - Req was made
+1.10.2023, 23:19:48 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 8:53:40 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 10:14:06 - INFO - Req was made
+2.10.2023, 10:14:06 - INFO - Req was made
+2.10.2023, 10:14:07 - INFO - Req was made
+2.10.2023, 10:14:12 - INFO - Req was made
+2.10.2023, 10:15:32 - INFO - Req was made
+2.10.2023, 10:16:18 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 10:19:26 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 10:19:40 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 10:19:48 - INFO - Req was made
+2.10.2023, 10:20:02 - INFO - Req was made
+2.10.2023, 10:59:06 - INFO - Req was made
+2.10.2023, 10:59:49 - INFO - Req was made
+2.10.2023, 11:00:24 - INFO - Req was made
+2.10.2023, 11:00:24 - INFO - Req was made
+2.10.2023, 11:00:24 - INFO - Req was made
+2.10.2023, 11:00:53 - INFO - Req was made
+2.10.2023, 11:00:53 - INFO - Req was made
+2.10.2023, 11:00:53 - INFO - Req was made
+2.10.2023, 11:00:55 - INFO - Req was made
+2.10.2023, 11:00:59 - INFO - Req was made
+2.10.2023, 11:00:59 - INFO - Req was made
+2.10.2023, 11:00:59 - INFO - Req was made
+2.10.2023, 11:01:24 - INFO - Req was made
+2.10.2023, 11:02:41 - INFO - Req was made
+2.10.2023, 11:02:43 - INFO - Req was made
+2.10.2023, 11:02:44 - INFO - Req was made
+2.10.2023, 11:02:45 - INFO - Req was made
+2.10.2023, 11:02:45 - INFO - Req was made
+2.10.2023, 11:02:45 - INFO - Req was made
+2.10.2023, 11:02:45 - INFO - Req was made
+2.10.2023, 11:04:46 - INFO - Req was made
+2.10.2023, 11:04:49 - INFO - Req was made
+2.10.2023, 11:04:49 - INFO - Req was made
+2.10.2023, 11:04:49 - INFO - Req was made
+2.10.2023, 11:04:51 - INFO - Req was made
+2.10.2023, 11:04:51 - INFO - Req was made
+2.10.2023, 11:04:51 - INFO - Req was made
+2.10.2023, 14:06:02 - INFO - Req was made
+2.10.2023, 14:06:56 - DEBUG - auth.service - login with username: peleg
+2.10.2023, 14:06:56 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+2.10.2023, 14:06:58 - INFO - Req was made
+2.10.2023, 14:06:59 - INFO - Req was made
+2.10.2023, 14:07:00 - INFO - Req was made
+2.10.2023, 14:08:31 - INFO - Req was made
+2.10.2023, 14:24:03 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 14:24:04 - INFO - Req was made
+2.10.2023, 14:24:04 - INFO - Req was made
+2.10.2023, 14:24:04 - INFO - Req was made
+2.10.2023, 14:24:08 - INFO - Req was made
+2.10.2023, 14:24:09 - INFO - Req was made
+2.10.2023, 14:24:09 - INFO - Req was made
+2.10.2023, 14:24:09 - INFO - Req was made
+2.10.2023, 14:24:20 - INFO - Req was made
+2.10.2023, 14:26:38 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 14:26:40 - INFO - Req was made
+2.10.2023, 14:27:22 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 14:27:24 - INFO - Req was made
+2.10.2023, 14:28:02 - INFO - Req was made
+2.10.2023, 14:28:02 - INFO - Req was made
+2.10.2023, 14:28:03 - INFO - Req was made
+2.10.2023, 16:36:00 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 16:47:21 - INFO - Req was made
+2.10.2023, 16:48:12 - INFO - Req was made
+2.10.2023, 16:49:11 - INFO - Req was made
+2.10.2023, 16:50:14 - INFO - Req was made
+2.10.2023, 16:50:34 - INFO - Req was made
+2.10.2023, 16:50:36 - INFO - Req was made
+2.10.2023, 16:51:17 - INFO - Req was made
+2.10.2023, 16:51:21 - INFO - Req was made
+2.10.2023, 16:51:51 - INFO - Req was made
+2.10.2023, 16:51:54 - INFO - Req was made
+2.10.2023, 16:55:51 - INFO - Req was made
+2.10.2023, 17:01:38 - INFO - Req was made
+2.10.2023, 17:02:03 - INFO - Req was made
+2.10.2023, 17:02:05 - INFO - Req was made
+2.10.2023, 17:02:05 - ERROR - while finding user 651acd5d7f040537d3d96be6 | TypeError: Cannot convert undefined or null to object
+2.10.2023, 17:02:05 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object
+2.10.2023, 17:03:54 - INFO - Req was made
+2.10.2023, 17:03:58 - INFO - Req was made
+2.10.2023, 17:03:58 - ERROR - while finding user 651acdce7f040537d3d96be8 | TypeError: Cannot convert undefined or null to object
+2.10.2023, 17:03:58 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object
+2.10.2023, 17:08:38 - INFO - Req was made
+2.10.2023, 17:08:40 - INFO - Req was made
+2.10.2023, 17:08:42 - INFO - Req was made
+2.10.2023, 17:08:42 - ERROR - while finding user 651aceea7f040537d3d96bea | TypeError: Cannot convert undefined or null to object
+2.10.2023, 17:08:42 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object
+2.10.2023, 17:09:01 - DEBUG - auth.service - login with username: peleg
+2.10.2023, 17:09:02 - INFO - User login:  | {"_id":"65180e98e822f915f5ff844e","username":"peleg","fullname":"peleg","isAdmin":true,"score":0}
+2.10.2023, 17:09:19 - INFO - Req was made
+2.10.2023, 17:09:21 - INFO - Req was made
+2.10.2023, 17:09:21 - ERROR - while finding user 651acf117f040537d3d96bec | TypeError: Cannot convert undefined or null to object
+2.10.2023, 17:09:21 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object
+2.10.2023, 17:10:22 - INFO - Req was made
+2.10.2023, 19:01:42 - INFO - Req was made
+2.10.2023, 19:01:46 - INFO - Req was made
+2.10.2023, 19:01:47 - INFO - Req was made
+2.10.2023, 19:01:48 - INFO - Req was made
+2.10.2023, 19:04:15 - INFO - Req was made
+2.10.2023, 19:08:12 - INFO - Req was made
+2.10.2023, 19:08:12 - INFO - Req was made
+2.10.2023, 19:08:12 - INFO - Req was made
+2.10.2023, 19:08:13 - INFO - Req was made
+2.10.2023, 19:08:17 - INFO - Req was made
+2.10.2023, 19:08:17 - ERROR - while finding user 651aeaf17f040537d3d96bee | TypeError: Cannot convert undefined or null to object
+2.10.2023, 19:08:17 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object
+2.10.2023, 19:14:03 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 19:29:24 - INFO - Req was made
+2.10.2023, 19:29:27 - INFO - Req was made
+2.10.2023, 19:29:29 - INFO - Req was made
+2.10.2023, 19:29:29 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object
+2.10.2023, 19:29:29 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object
+2.10.2023, 19:31:45 - INFO - Req was made
+2.10.2023, 19:31:45 - INFO - Req was made
+2.10.2023, 19:31:45 - INFO - Req was made
+2.10.2023, 19:31:46 - INFO - Req was made
+2.10.2023, 19:32:12 - INFO - Req was made
+2.10.2023, 19:32:12 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object
+2.10.2023, 19:32:12 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object
+2.10.2023, 19:33:17 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 19:33:19 - INFO - Req was made
+2.10.2023, 19:33:19 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object
+2.10.2023, 19:33:19 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object
+2.10.2023, 19:34:37 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 19:37:24 - INFO - Req was made
+2.10.2023, 19:40:01 - INFO - Req was made
+2.10.2023, 19:44:26 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 19:44:41 - INFO - Req was made
+2.10.2023, 19:44:49 - INFO - Req was made
+2.10.2023, 19:44:49 - ERROR - Failed to add review | TypeError: Cannot read properties of undefined (reading '_id')
+2.10.2023, 19:47:52 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 19:48:04 - INFO - Req was made
+2.10.2023, 19:48:13 - INFO - Req was made
+2.10.2023, 19:48:13 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object
+2.10.2023, 19:48:13 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object
+2.10.2023, 19:48:32 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 19:48:35 - INFO - Req was made
+2.10.2023, 19:49:24 - INFO - Req was made
+2.10.2023, 19:49:32 - INFO - Req was made
+2.10.2023, 19:54:06 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 19:54:07 - INFO - Req was made
+2.10.2023, 19:56:08 - INFO - Req was made
+2.10.2023, 19:58:05 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 19:58:21 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 19:58:27 - INFO - Req was made
+2.10.2023, 19:58:30 - INFO - Req was made
+2.10.2023, 20:00:25 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 20:00:30 - INFO - Req was made
+2.10.2023, 20:01:29 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 20:01:40 - INFO - Req was made
+2.10.2023, 20:01:41 - INFO - Req was made
+2.10.2023, 20:02:09 - INFO - Req was made
+2.10.2023, 20:02:44 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 20:02:55 - INFO - Req was made
+2.10.2023, 20:03:00 - INFO - Req was made
+2.10.2023, 20:03:28 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 20:03:31 - INFO - Req was made
+2.10.2023, 20:03:33 - INFO - Req was made
+2.10.2023, 20:04:03 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 20:04:08 - INFO - Req was made
+2.10.2023, 20:05:14 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 20:06:18 - INFO - Req was made
+2.10.2023, 20:07:24 - INFO - Req was made
+2.10.2023, 20:07:27 - INFO - Req was made
+2.10.2023, 20:08:48 - INFO - Req was made
+2.10.2023, 20:10:19 - INFO - Req was made
+2.10.2023, 20:10:22 - INFO - Req was made
+2.10.2023, 20:10:28 - INFO - Req was made
+2.10.2023, 20:10:47 - INFO - Req was made
+2.10.2023, 20:11:10 - INFO - Req was made
+2.10.2023, 20:11:10 - INFO - Req was made
+2.10.2023, 20:11:10 - INFO - Req was made
+2.10.2023, 20:11:11 - INFO - Req was made
+2.10.2023, 20:11:13 - INFO - Req was made
+2.10.2023, 20:11:14 - INFO - Req was made
+2.10.2023, 20:11:14 - INFO - Req was made
+2.10.2023, 20:11:14 - INFO - Req was made
+2.10.2023, 22:17:31 - INFO - Server listening on port http://127.0.0.1:3030/
+2.10.2023, 22:17:33 - INFO - Req was made
